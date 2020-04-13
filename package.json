@@ -1,0 +1,29 @@
+{
+  "name": "cushax-schema",
+  "version": "0.1.0",
+  "author": "boenfu <1997@boenfu.cn>",
+  "license": "MIT",
+  "private": false,
+  "main": "lib/schema.js",
+  "module": "lib/schema.js",
+  "types": "lib/schema.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boenfu/cushax-schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boenfu/cushax-schema/issues"
+  },
+  "homepage": "https://github.com/boenfu/cushax-schema#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3",
+    "vuex": "^3.1.3"
+  }
+}
