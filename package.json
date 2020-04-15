@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/boenfu/cushax-schema#readme",
   "devDependencies": {
-    "typescript": "^3.8.3",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
     "vuex": "^3.1.3"
   }
 }
